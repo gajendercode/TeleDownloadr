@@ -1,8 +1,8 @@
 import asyncio
 import signal
-from core.client import TelegramClient
-from core.downloader import Downloader
-from utils.display import tui
+from teledownloadr.core.client import TelegramClient
+from teledownloadr.core.downloader import Downloader
+from teledownloadr.utils.display import tui
 
 async def test_scan_preview():
     """

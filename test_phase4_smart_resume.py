@@ -1,10 +1,10 @@
 import asyncio
 import signal
 import os
-from core.client import TelegramClient
-from core.downloader import Downloader
-from core.metadata import MetadataManager
-from utils.display import tui
+from teledownloadr.core.client import TelegramClient
+from teledownloadr.core.downloader import Downloader
+from teledownloadr.core.metadata import MetadataManager
+from teledownloadr.utils.display import tui
 
 async def test_smart_resume():
     """
