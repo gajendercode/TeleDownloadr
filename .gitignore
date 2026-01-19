@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# TeleDownloadr specific
+*.session
+*.session-journal
+downloads/
+teledownloadr.log
